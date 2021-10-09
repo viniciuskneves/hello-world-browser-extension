@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Hello extensions",
+  "version": "1.0.0",
+  "description": "Base level extension",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extension.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens hello.html"
+    }
+  }
+}
